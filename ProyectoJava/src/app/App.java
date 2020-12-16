@@ -6,9 +6,9 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hola mundo");
-		
-		
+		System.out.println("Introduce tu nombre:");
+		String nombre = leerStringPorConsola();
+		System.out.println("Hola, "+nombre);
 		
 		
 	}
